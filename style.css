@@ -35,6 +35,17 @@ body {
             border-bottom: 2px solid white;
         }
 
+@media (max-width: 600px) {
+    body {
+        padding-top: 120px;
+    }
+
+    .navbar a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
