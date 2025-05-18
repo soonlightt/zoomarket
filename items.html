@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: mistyrose;
+            font-family: Corbel;
+            color: #000000;
+            margin: 0;
+            padding-top: 60px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .navbar {
+            background-color: darkblue;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px 24px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .navbar a:hover {
+                    background-color: #575757;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="items.html">Товары</a>
+        <a href="cats.html">Наши котики</a>
+        <a href="contacts.html">Контакты</a>
+    </div>
+
+    <h1>Наши товары</h1>
+    <p class="subtitle">Цены актуальны на 18.05.2025</p>
+
+    <div class="product-list">
+        <div class="product-card">
+            <img src="item1.jpg" alt="Когтеточка">
+            <h3>Когтеточка</h3>
+            <p>Цена: 700 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="item2.jpg" alt="Рыбка">
+            <h3>Рыбка</h3>
+            <p>Цена: 250 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="item3.jpg" alt="Мышка">
+            <h3>Мышка</h3>
+            <p>Цена: 350 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="item4.jpg" alt="Корм">
+            <h3>Корм</h3>
+            <p>Цена: 40 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="item5.jpg" alt="Миска">
+            <h3>Миска</h3>
+            <p>Цена: 350 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="item6.jpg" alt="Домик">
+            <h3>Домик</h3>
+            <p>Цена: 3000 ₽</p>
+            <button class="buy-button">Купить</button>
+        </div>
+    </div>
+
+    <button class="basket-button">
+        <img src="basket.jpg" alt="Корзина">
+    </button>
+
+</body>
+</html>

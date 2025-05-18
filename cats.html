@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши котики</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: mistyrose;
+        font-family: Corbel;
+        color: #000000;
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    h1 {
+        color: darkblue;
+    }
+
+    .navbar {
+        background-color: darkblue;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 24px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+            .navbar a:hover {
+                background-color: #575757;
+            }
+</style>
+<body>
+    <div class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="items.html">Товары</a>
+        <a href="cats.html">Наши котики</a>
+        <a href="contacts.html">Контакты</a>
+    </div>
+
+    <h1>Наши котики</h1>
+    <p class="subtitle">Все котики имеют все прививки!</p>
+
+    <div class="cats-list">
+        <div class="cat-card">
+            <img src="cat1.jpg" alt="Бантик">
+            <h3>Бантик</h3>
+            <p>Возраст: 3 месяца</p>
+            <button class="home-button">Приютить</button>
+        </div>
+
+        <div class="cat-card">
+            <img src="cat2.jpg" alt="Чмоня">
+            <h3>Чмоня</h3>
+            <p>Возраст: 1 год</p>
+            <button class="home-button">Приютить</button>
+        </div>
+
+        <div class="cat-card">
+            <img src="cat3.jpg" alt="Металик">
+            <h3>Металик</h3>
+            <p>Возраст: 1.5 года</p>
+            <button class="home-button">Приютить</button>
+        </div>
+
+        <div class="cat-card">
+            <img src="cat4.jpg" alt="Розочка">
+            <h3>Розочка</h3>
+            <p>Возраст: 2 года</p>
+            <button class="home-button">Приютить</button>
+        </div>
+
+        <div class="cat-card">
+            <img src="cat5.jpg" alt="Гвоздик">
+            <h3>Гвоздик</h3>
+            <p>Возраст: 5 месяцев</p>
+            <button class="home-button">Приютить</button>
+        </div>
+
+        <div class="cat-card">
+            <img src="cat6.jpg" alt="Шеф-Бургер">
+            <h3>Шеф-Бургер</h3>
+            <p>Возраст: 7 месяцев</p>
+            <button class="home-button">Приютить</button>
+        </div>
+    </div>
+
+    <button class="house-button">
+        <img src="house.jpg" alt="Дом">
+    </button>
+</body>
+</html>

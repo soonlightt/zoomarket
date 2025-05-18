@@ -1,0 +1,281 @@
+@media (max-width: 600px) {
+    body {
+        font-family: Arial;
+        background-color: thistle;
+        color: #333;
+        margin: 0;
+        padding-top: 100px;
+    }
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease; 
+    box-sizing: border-box;
+}
+
+    .navbar a:hover {
+        background-color: #575757;
+    }
+.navbar a {
+    border-bottom: 2px solid transparent;
+}
+
+    .navbar a:hover {
+        border-bottom: 2px solid white;
+    }
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    height: 420px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .product-card h3 {
+        margin: 50px 0 6px 0;
+        font-size: 18px;
+    }
+
+    .product-card p {
+        font-weight: bold;
+        color: green;
+        font-family: "Courier New", monospace;
+        font-size: 16px;
+        margin: 0;
+    }
+
+
+
+    .product-card img {
+        max-height: 160px;
+        object-fit: contain;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: darkblue;
+    font-family: 'Corbel', sans-serif;
+}
+.buy-button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+    .buy-button:hover {
+        background-color: orangered;
+        transform: scale(0.9);
+    }
+    .buy-button:active {
+        transform: scale(0.85);
+    }
+
+
+
+.basket-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 100;
+}
+.basket-button:hover {
+    background-color: white;
+    transform: scale(0.9);
+}
+.basket-button:active {
+    transform: scale(0.85);
+}
+.basket-button img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.house-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 100;
+}
+
+    .house-button:hover {
+        background-color: white;
+        transform: scale(0.9);
+    }
+
+    .house-button:active {
+        transform: scale(0.85);
+    }
+
+    .house-button img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'B612', serif;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.cont {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'B612', serif;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.center-img {
+    text-align: center;
+    margin-top: 20px;
+}
+.cats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.cat-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    height: 420px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .cat-card img {
+        margin-top: 20px;
+        max-height: 170px;
+        object-fit: contain;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .cat-card h3 {
+
+        font-size: 18px;
+    }
+
+    .cat-card p {
+        font-weight: bold;
+        color: green;
+        font-family: "Courier New", monospace;
+        font-size: 16px;
+        margin: 0;
+    }
+
+.home-button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .home-button:hover {
+        background-color: orangered;
+        transform: scale(0.95);
+    }
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+    .social a {
+        display: inline-block;
+        transition: transform 0.2s ease;
+    }
+
+        .social a:active {
+            transform: scale(0.9);
+        }
+
+    .social img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    .social a:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
